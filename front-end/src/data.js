@@ -1,13 +1,9 @@
 let moviesList = [
-  "Raid 2",
+
   "golmal 3",
   "welcome",
   "3 idiots",
-  "zindagi na milegi dobara",
-  "dil chahta hai",
-  "dilwale dulhaniya le jayenge",
-  "kuch kuch hota hai",
-  "dil to pagal hai",
+
   "koi mil gaya",
   "krrish 3",
   
