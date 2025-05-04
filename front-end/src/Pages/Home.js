@@ -5,6 +5,9 @@ import TimeSchedule from '../Components/TimeSchedule';
 import SelectSeats from '../Components/SelectSeats';
 import '../Css/Home.css'
 const Home = () => {
+  const handleBookNow = () => {
+    alert("Booking Confirmed")
+  }
   return (
     <div className='container'>
     <div className='wrapper'>
@@ -23,7 +26,9 @@ const Home = () => {
         <TimeSchedule/>
 <SelectSeats/>
         
-        <button className='BN-btn'>Book Now</button>
+        <button className='BN-btn' onClick={()=>{
+          handleBookNow()
+        }}>Book Now</button>
     </div>
     </div>
   )
