@@ -1,14 +1,14 @@
+import React from 'react';
 
-import './App.css';
-import BsState from './Context/BsState.js';
-import Home from './Pages/Home.js';
-
+import BsState from './Context/BsState';
+import Home from './Pages/Home';
 
 function App() {
   return (
-    <div>
-   <BsState> <Home/> </BsState>
-     
+    <div className="App">
+    <BsState>
+    <Home />
+  </BsState> 
     </div>
   );
 }
