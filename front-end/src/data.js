@@ -6,10 +6,17 @@ let moviesList = [
 
   "koi mil gaya",
   "krrish 3",
+  "Animal",
+  "Total Dhamal",
+  "Gaddar2",
+  "Dangal",
+  "Stree 2",
+  "Donkey",
+  "Bhool Bhulaiyaa 3"
   
 ];
 let slots = ['10:00 AM', '1:00 PM', '4:00 PM', '7:00 PM', '10:00 PM'];
-let seats = ['A1', 'A2', 'A3', 'A4', 'D1', 'D2'];
+let seats = ['A1', 'A2', 'A3', 'A4',  'D1','D2'];
 exports.moviesList = moviesList;
 exports.slots = slots;
 exports.seats = seats;
